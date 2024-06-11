@@ -22,13 +22,13 @@ const login = () => {
 
     CheckLogin();
   }, []);
-  const port = process.env.EXPO_PUBLIC_API_URL;
+  const BaseUrl = process.env.EXPO_PUBLIC_API_URL;
   const login = async () => {
     const user = {
       email: email,
       password: password,
     };
-    await axios.post(`${port}/login`, user).then((resp) => {
+    await axios.post(`${BaseUrl}/login`, user).then((resp) => {
       console.log(resp);
       const token = resp.data.token;
       AsyncStorage.setItem("authtoken", token);
