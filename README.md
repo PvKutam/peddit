@@ -60,11 +60,3 @@ To run the backend server locally, follow these steps:
 
 - `npm start`: Starts the backend server using `nodemon`.
 
-Changes:
-
-1. Capitalized the first letter of the project description.
-2. Added a period at the end of the project description.
-3. Added an extra line break between sections for better readability.
-4. Changed the casing of "Available Scripts" to match the other headings.
-
-The grammar and structure look good overall. This README file provides a clear overview of your project, the technologies used, and instructions for running both the frontend and backend locally.
